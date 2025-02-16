@@ -1,0 +1,71 @@
+/* Center the main content in a box */
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Light background */
+    border-radius: 3px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style text within the container */
+.container h1, .container h2, .container p, .container ul {
+    color: #333333; /* Dark text for readability */
+}
+
+/* Center code blocks inside the box */
+pre {
+    width: 100%;
+    overflow-x: auto;
+    padding: 2px;
+    border-radius: 3px;
+    background-color: #f5f5f5; /* Light gray background for code */
+    border: 1px solid #ddd; /* Light border for contrast */
+}
+
+/* Ensure code formatting is readable */
+code {
+    font-size: 14px;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: #d63384; /* Syntax highlighting color */
+}
+
+/* Light theme for body */
+body {
+    background-color: #f8f9fa;
+    color: #333333; /* Dark text */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Make links stand out */
+a {
+    color: #007bff; /* Classic blue links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Change color on hover */
+a:hover {
+    color: #ff5733; /* Reddish hover effect */
+    text-decoration: underline;
+    transition: color 0.2s ease-in-out;
+}
+
+/* Ensure visited links don't blend in */
+a:visited {
+    color: #551a8b; /* Purple for visited links */
+}
+
+/* Fade-in effect for md-block rendering */
+md-block {
+    opacity: 0;
+    transition: opacity 0.1s ease-in-out;
+}
+
+md-block.rendered {
+    opacity: 1;
+}
