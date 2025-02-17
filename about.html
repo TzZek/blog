@@ -1,21 +1,37 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Blog</title>
-    <script type="module" src="https://md-block.verou.me/md-block.js"></script>
-    <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-    <div class="container">
-        <md-block id="markdown-content">
-            [ [home] ](../index.html)
-
-            Who am I?
-        </md-block>
-    </div>
-
-    <script src="scripts.js"></script>
-</body>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>My Blog</title>
+        <script type="module" src="https://md-block.verou.me/md-block.js"></script>
+        <link rel="stylesheet" href="styles.css" />
+        <style>
+            .profile-container {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+            }
+            .profile-container img {
+                margin-left: 20px;
+                border-radius: 5%;
+                width: 250px;
+                height: 250px;
+                align-self: flex-start;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container profile-container">
+            <md-block id="markdown-content">
+                [ [home] ](../index.html) 
+                
+                ### About Me 
+                
+                whoami
+            </md-block>
+            <img src="images/profile.jpeg" alt="Profile Picture" />
+        </div>
+        <script src="scripts.js"></script>
+    </body>
 </html>

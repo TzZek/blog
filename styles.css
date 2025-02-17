@@ -9,7 +9,10 @@
 }
 
 /* Style text within the container */
-.container h1, .container h2, .container p, .container ul {
+.container h1,
+.container h2,
+.container p,
+.container ul {
     color: #333333; /* Dark text for readability */
 }
 
